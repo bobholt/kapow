@@ -1,0 +1,43 @@
+{
+  "name": "kapow",
+  "version": "1.0.0",
+  "description": "An http error library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run style && istanbul cover _mocha -- -b -R spec",
+    "style": "jscs lib test",
+    "lint": "jshint index.js lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobholt/kapow.git"
+  },
+  "keywords": [
+    "http",
+    "error",
+    "status",
+    "codes"
+  ],
+  "author": {
+    "name": "Bob Holt",
+    "url": "http://bobholt.me"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bobholt/kapow/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bobholt/kapow/issues"
+  },
+  "homepage": "https://github.com/bobholt/kapow",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "istanbul": "^0.3.6",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.0",
+    "lodash": "^3.3.1",
+    "mocha": "^2.1.0"
+  }
+}
